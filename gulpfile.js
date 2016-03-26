@@ -86,5 +86,5 @@ gulp.task('clean', function () {
   return del('dist');
 });
 
-gulp.task('prepublish', ['nsp', 'compress']);
+gulp.task('prepublish', ['nsp', 'default', 'compress']);
 gulp.task('default', ['static'/*, 'test', 'coveralls'*/]);
