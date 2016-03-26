@@ -12,7 +12,7 @@ $ npm install --save emtmadrid-lib
 ```js
 var emtmadridLib = require('emtmadrid-lib');
 
-emtmadridLib('Rainbow');
+var EMTMadrid = new emtmadridLib(myClientId, myPassKey, lang);
 ```
 ## License
 
